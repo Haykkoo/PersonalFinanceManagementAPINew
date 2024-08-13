@@ -5,6 +5,27 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalFinanceManagementAPI", "PersonalFinanceManagementAPI.csproj", "{D697F1A2-054A-49F0-960D-2F3FA635FD5D}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "personal-finance-management", "..\..\..\personal-finance-management\", "{D3F79FB4-7F39-493C-9810-D3CC47377EF4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54398"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\personal-finance-management\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54398\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54398"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\personal-finance-management\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54398\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54398"
+		SlnRelativePath = "..\..\..\personal-finance-management\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +36,10 @@ Global
 		{D697F1A2-054A-49F0-960D-2F3FA635FD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D697F1A2-054A-49F0-960D-2F3FA635FD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D697F1A2-054A-49F0-960D-2F3FA635FD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F79FB4-7F39-493C-9810-D3CC47377EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F79FB4-7F39-493C-9810-D3CC47377EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F79FB4-7F39-493C-9810-D3CC47377EF4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F79FB4-7F39-493C-9810-D3CC47377EF4}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
