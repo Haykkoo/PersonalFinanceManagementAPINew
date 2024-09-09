@@ -2,22 +2,15 @@
 using Microsoft.EntityFrameworkCore;
 using PersonalFinanceManagementAPI.Data;
 using PersonalFinanceManagementAPI.Models;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Reflection.Metadata;
 
 namespace PersonalFinanceManagementAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class InvestmentController : ControllerBase
+    public class InvestmentController(AppDbContext context) : ControllerBase
     {
-        private readonly AppDbContext _context;
-
-        public InvestmentController(AppDbContext context)
-        {
-            _context = context;
-        }
+        private readonly AppDbContext _context = context;
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Investment>>> GetInvestments()
