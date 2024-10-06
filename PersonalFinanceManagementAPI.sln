@@ -26,6 +26,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "personal-finance-management
 		SlnRelativePath = "..\..\..\personal-finance-management\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "..\NotificationService\NotificationService.csproj", "{817B38F7-48AD-457F-B50D-D36C915801F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{D3F79FB4-7F39-493C-9810-D3CC47377EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3F79FB4-7F39-493C-9810-D3CC47377EF4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3F79FB4-7F39-493C-9810-D3CC47377EF4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{817B38F7-48AD-457F-B50D-D36C915801F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817B38F7-48AD-457F-B50D-D36C915801F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817B38F7-48AD-457F-B50D-D36C915801F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817B38F7-48AD-457F-B50D-D36C915801F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
